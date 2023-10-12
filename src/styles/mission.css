@@ -1,0 +1,66 @@
+table {
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+
+th,
+td {
+  border: 1px solid #888;
+  padding: 1rem;
+}
+
+th {
+  font-size: 1.2rem;
+  text-align: start;
+}
+
+td {
+  font-size: 1.1rem;
+  color: #5a5a5a;
+}
+
+tr:nth-child(even) {
+  background-color: #ececec;
+}
+
+button {
+  border: none;
+  background-color: transparent;
+}
+
+.tableContainer {
+  margin-top: 2rem;
+}
+
+.col1 {
+  width: 10%;
+}
+
+.col2 {
+  width: 65%;
+}
+
+.activeMember {
+  background-color: #1aa1b9;
+  color: #fff;
+  padding: 0.3rem;
+}
+
+.notActive {
+  background-color: #888;
+  text-transform: uppercase;
+  color: #fff;
+  padding: 0.3rem;
+}
+
+.activeMission {
+  border: 1px solid red;
+  color: red;
+  padding: 0.3rem;
+}
+
+.notActiveMission {
+  border: 1px solid #888;
+  color: #888;
+  padding: 0.3rem;
+}
