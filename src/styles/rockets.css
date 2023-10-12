@@ -25,6 +25,7 @@
 
 .reserve,
 .unreserve {
+  margin-top: 15px;
   background-color: rgb(24, 145, 44);
   color: #fff;
   border: none;
