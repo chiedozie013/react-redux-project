@@ -1,7 +1,7 @@
-import { useSelector, useDispatch } from "react-redux";
-import { useEffect } from "react";
-import { joinMission } from "../redux/MissionsSlice";
-import fetchMissions from "../API/apiMissions";
+import { useSelector, useDispatch } from 'react-redux';
+import { useEffect } from 'react';
+import { joinMission } from '../redux/MissionsSlice';
+import fetchMissions from '../API/apiMissions';
 
 const Missions = () => {
   const { missions, loading } = useSelector((store) => store.missions);
@@ -44,20 +44,20 @@ const Missions = () => {
                 <td>
                   <button
                     type="button"
-                    className={reserved ? "activeMember" : "notActive"}
+                    className={reserved ? 'activeMember' : 'notActive'}
                   >
-                    {reserved ? "Active member" : "Not a member"}
+                    {reserved ? 'Active member' : 'Not a member'}
                   </button>
                 </td>
                 <td>
                   <button
                     type="button"
-                    className={reserved ? "activeMission" : "notActiveMission"}
+                    className={reserved ? 'activeMission' : 'notActiveMission'}
                     onClick={() => {
                       dispatch(joinMission(id));
                     }}
                   >
-                    {reserved ? "Leave mission" : "Join mission"}
+                    {reserved ? 'Leave mission' : 'Join mission'}
                   </button>
                 </td>
               </tr>

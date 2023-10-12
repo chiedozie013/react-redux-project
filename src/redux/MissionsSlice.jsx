@@ -1,5 +1,5 @@
-import { createSlice } from "@reduxjs/toolkit";
-import fetchMissions from "../API/apiMissions";
+import { createSlice } from '@reduxjs/toolkit';
+import fetchMissions from '../API/apiMissions';
 
 const initialState = {
   missions: [],
@@ -7,7 +7,7 @@ const initialState = {
 };
 
 const missionSlice = createSlice({
-  name: "mission",
+  name: 'mission',
   initialState,
   reducers: {
     joinMission: (state, { payload }) => {
