@@ -1,9 +1,9 @@
-import { createAsyncThunk } from "@reduxjs/toolkit";
-import axios from "axios";
+import { createAsyncThunk } from '@reduxjs/toolkit';
+import axios from 'axios';
 
-const BaseURL = "https://api.spacexdata.com/v4/rockets";
+const BaseURL = 'https://api.spacexdata.com/v4/rockets';
 
-const fetchRockets = createAsyncThunk("rockets/fetchRockets", async () => {
+const fetchRockets = createAsyncThunk('rockets/fetchRockets', async () => {
   const response = await axios.get(BaseURL);
   const rockets = response.data;
   return rockets.map((rocket) => ({

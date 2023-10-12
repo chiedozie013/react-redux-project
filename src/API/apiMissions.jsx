@@ -1,10 +1,10 @@
-import { createAsyncThunk } from "@reduxjs/toolkit";
-import axios from "axios";
+import { createAsyncThunk } from '@reduxjs/toolkit';
+import axios from 'axios';
 
-const baseUrl = "https://api.spacexdata.com/v3/missions";
+const baseUrl = 'https://api.spacexdata.com/v3/missions';
 
 const fetchMissions = createAsyncThunk(
-  "mission/fetchMissions",
+  'mission/fetchMissions',
   async (thunkAPI) => {
     try {
       const res = await axios(baseUrl);
@@ -13,7 +13,7 @@ const fetchMissions = createAsyncThunk(
     } catch (error) {
       return thunkAPI.rejectWithValue(error.message);
     }
-  }
+  },
 );
 
 export default fetchMissions;

@@ -1,5 +1,5 @@
-import { createSlice } from "@reduxjs/toolkit";
-import fetchRockets from "../API/apiRockets";
+import { createSlice } from '@reduxjs/toolkit';
+import fetchRockets from '../API/apiRockets';
 
 const initialState = {
   rockets: [],
@@ -7,13 +7,12 @@ const initialState = {
 };
 
 const rocketsSlice = createSlice({
-  name: "rockets",
+  name: 'rockets',
   initialState,
   reducers: {
     reserveRocket: (state, { payload }) => {
       const rockets = state.rockets.map((rocket) => {
-        if (rocket.id === payload)
-          return { ...rocket, reserved: !rocket.reserved };
+        if (rocket.id === payload) { return { ...rocket, reserved: !rocket.reserved }; }
         return rocket;
       });
       return { ...state, rockets };

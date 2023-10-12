@@ -1,6 +1,6 @@
-import React from "react";
-import { NavLink, Outlet } from "react-router-dom";
-import logo from "../Images/logo.png";
+import React from 'react';
+import { NavLink, Outlet } from 'react-router-dom';
+import logo from '../Images/logo.png';
 
 function Header() {
   return (
@@ -15,7 +15,7 @@ function Header() {
             <NavLink
               to="/"
               style={({ isActive }) => ({
-                textDecoration: isActive ? "underline" : "",
+                textDecoration: isActive ? 'underline' : '',
               })}
             >
               Rockets
@@ -23,22 +23,22 @@ function Header() {
             <NavLink
               to="/missions"
               style={({ isActive }) => ({
-                textDecoration: isActive ? "underline" : "",
+                textDecoration: isActive ? 'underline' : '',
               })}
             >
               Missions
             </NavLink>
             <span
               style={{
-                borderLeft: "2px solid #000",
-                height: "16px",
-                marginLeft: "-1.4rem",
+                borderLeft: '2px solid #000',
+                height: '16px',
+                marginLeft: '-1.4rem',
               }}
             />
             <NavLink
               to="/myProfile"
               style={({ isActive }) => ({
-                textDecoration: isActive ? "underline" : "",
+                textDecoration: isActive ? 'underline' : '',
               })}
               className="profile"
             >
