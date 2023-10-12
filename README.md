@@ -23,16 +23,18 @@
 - [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
-# 📖 [react-redux-project] <a name="about-project"></a>
+# 📖 [Space-Travelers'-Hub] <a name="about-project"></a>
 
-**[react-redux-project]**
-This is a website built with react and redux
+**[Space-Travelers'-Hub]**
+A web application for a company that provides commercial and scientific space travel services. The application will allow users to book rockets and join selected space missions. This app was built with react and redux
 
 ## 🛠 Built With <a name="React"></a>
 
 ### Tech Stack <a name="Front end"></a>
 
 - **[Client]**
+- **[React]**
+- **[React]**
 
 ### Key Features <a name="key-features"></a>
 
