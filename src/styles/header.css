@@ -1,0 +1,34 @@
+.logo {
+  display: flex;
+  align-items: center;
+  padding: 20px 20px;
+}
+
+.logo h1 {
+  padding: 0 20px;
+}
+
+/* navbar links  */
+a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #0984e3;
+}
+
+.container_nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: -3rem;
+  border-bottom: 1px solid #888;
+}
+
+.routeLinks {
+  display: flex;
+  gap: 3rem;
+  width: 50vh;
+}
+
+.profile {
+  margin-left: -1.4rem;
+}
