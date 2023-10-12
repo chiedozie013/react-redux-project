@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Missions Render Missions Component 1`] = `
+<div
+  className="tableContainer"
+>
+  <table
+    className="table"
+  >
+    <colgroup>
+      <col
+        className="col1"
+      />
+      <col
+        className="col2"
+      />
+    </colgroup>
+    <tbody>
+      <tr
+        className="tableHeading"
+      >
+        <th>
+          Mission
+        </th>
+        <th>
+          Description
+        </th>
+        <th>
+          Status
+        </th>
+        <th>
+           
+        </th>
+      </tr>
+    </tbody>
+  </table>
+</div>
+`;
